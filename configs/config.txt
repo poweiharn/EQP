@@ -1,0 +1,43 @@
+[fitness_kwargs]
+pooling = genetic
+img_size = 32
+batch_size = 128
+lr = 0.1
+lr_decay_rate = 0.2
+warmup_epoch = 1
+
+model = vgg16_bn
+epoch = 3
+dataset=mnist
+
+
+fitness_metric = best_acc
+
+[EA_configs]
+seed = 2
+run = 1
+number_evaluations = 120
+mu = 20
+num_children = 10
+mutation_rate = 0.5
+individual_class = qtreeGenotype
+parent_selection = k_tournament_with_replacement
+survival_selection = truncation
+
+
+[initialization_kwargs]
+internal_nodes = {'+'}
+leaf_nodes = {'A','M','C','S','T','X'}
+seq_length = 5
+depth_limit = 4
+
+
+[parent_selection_kwargs]
+k = 5
+
+[recombination_kwargs]
+
+[mutation_kwargs]
+
+
+[survival_selection_kwargs]
