@@ -28,10 +28,10 @@ Our experimental results show that the best candidate network of EQP outperforms
 The results are saved in the /log folder.
 
 
-##Datasets
+## Datasets
 MNIST, CIFAR10, CIFAR100, and SVHN
 
-##Pooling  args
+## Pooling  args
 ```
 'M': Max Pooling
 'A': Average Pooling
@@ -41,17 +41,17 @@ MNIST, CIFAR10, CIFAR100, and SVHN
 'T': Mixed Pooling
 ```
 
-##Dataset args
+## Dataset args
 ```
 'mnist', 'cifar10', 'cifar100', 'svhn'
 ```
 
-##Model args
+## Model args
 ```
 'vgg11_bn','vgg13_bn','vgg16_bn','vgg19_bn'
 ```
 
-##Fitness Metrics args
+## Fitness Metrics args
 ```
 'best_acc': Search for the best validation accuracy
 'gen_gap': Search for the minimum generalization gap 
