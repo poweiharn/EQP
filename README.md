@@ -1,5 +1,5 @@
 # Evolutionary Quadtree Pooling for Convolutional Neural Networks
-#Overview
+# Overview
 Despite the success of Convolutional Neural Networks (CNNs) in computer vision, it can be beneficial to reduce parameters, increase computational
 efficiency, and regulate overfitting. One such reduction technique is the use of so-called pooling, which gradually reduces the spatial dimensions of the data throughout the network.
 Recently, Quadtree-based Genetic Programming has achieved state-of-the-art results for optimizing spatial areas on customized
