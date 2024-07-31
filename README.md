@@ -58,6 +58,6 @@ MNIST, CIFAR10, CIFAR100, and SVHN
 'best_op': Search for the least number of pooling operations 
 'ea_op': Search for the least number of pooling operations for GA
 'best_acc&op': Search for the best validation accuracy and the least number of pooling operations 
-'best_acc&op&gen' Search for the best validation accuracy, he minimum generalization gap, and the least number of pooling operations.
+'best_acc&op&gen' Search for the best validation accuracy, the minimum generalization gap, and the least number of pooling operations.
 ```
 
